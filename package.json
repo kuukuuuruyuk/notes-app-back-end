@@ -1,0 +1,26 @@
+{
+  "name": "notes-app-back-end",
+  "version": "0.0.0",
+  "description": "Proyek Notes API dengan menerapkan plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuukuuuruyuk/notes-app-back-end.git"
+  },
+  "author": "Baroen Sudarman",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kuukuuuruyuk/notes-app-back-end/issues"
+  },
+  "homepage": "https://github.com/kuukuuuruyuk/notes-app-back-end#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
+}
