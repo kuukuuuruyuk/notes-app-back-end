@@ -1,0 +1,13 @@
+@host = http://localhost:5000
+
+POST {{host}}/notes HTTP/1.1
+content-type: application/json
+
+{
+  "title": "success",
+  "body": 123456,
+  "tags": "string"
+}
+
+###
+GET {{host}}/notes HTTP/1.1
